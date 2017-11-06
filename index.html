@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- import sources -->
+    <script src="https://use.fontawesome.com/1a92bb96eb.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <title>Pomodoro</title>
+</head>
+
+<body>
+    <main>
+        <h1>POMODORO</h1>
+        <div class="timePie">
+            <canvas id="canvas" width=350px height=270px>Not support the HTML5 Canvas</canvas>
+            <ul class="timePannel">
+                <li class="timeUp"><i class="fa fa-angle-up"></i></li>
+                <li class="nextPom"></li>
+                <li>
+                    <ul class="timeNotice">
+                        <li>25</li>
+                        <li>min</li>
+                        <li>.</li>
+                    </ul>
+                </li>
+                <li class="nextPom" id="nextPom">next <i class="fa fa-chevron-circle-right"></i></li>
+                <li class="timeDown"><i class="fa fa-angle-down"></i></li>
+            </ul>
+        </div>
+        <ul class="control">
+            <li class="resetOne">
+                <i class="fa fa-repeat">
+                    <div>1</div>
+                </i>
+            </li>
+            <li class="play start"><i class="fa fa-play"></i></li>
+            <li class="resetAll">
+                <i class="fa fa-refresh">
+                    <div>A</div>
+                </i>
+            </li>
+        </ul>
+        <ul class="pomsPannel">
+            <li><svg viewBox="0 0 32 32" id="pom1" class="poms">
+                <circle r="16" cx="16" cy="16"/></svg></li>
+            <li><svg viewBox="0 0 32 32" id="pom2" class="poms">
+                <circle r="16" cx="16" cy="16"/></svg></li>
+            <li><svg viewBox="0 0 32 32" id="pom3" class="poms">
+                <circle r="16" cx="16" cy="16"/></svg></li>
+            <li><svg viewBox="0 0 32 32" id="pom4" class="poms">
+                <circle r="16" cx="16" cy="16"/></svg></li>
+        </ul>
+
+    </main>
+
+    <!-- import scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

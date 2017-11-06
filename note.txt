@@ -1,0 +1,14 @@
+var pomsPannel = {
+    flag:
+    stat: arr
+    update: f
+    resetOne: f
+    resetAll: f
+    draw: f
+}
+
+f pie() {
+    init()
+    draw(pausePoint);
+    clear()
+}
